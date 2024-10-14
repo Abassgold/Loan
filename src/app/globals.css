@@ -2,32 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.first{
+  background: url('https://www.shutterstock.com/image-illustration/black-modern-car-headlights-front-600nw-771184300.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.second{
+  background: url('https://media.istockphoto.com/id/1249955556/photo/here-is-my-salary-close-up-photo-of-a-young-girl-in-a-yellow-hoodie-smiling-with-her-eyes.jpg?s=612x612&w=0&k=20&c=K0Atk-u80xN__qy5z7kxk23GZsntyzRCspJsOXuqmVU=');
+  background-position: center;
+  background-size: cover;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.third{
+  background: url('https://www.harringtonhousing.com/uploads/0003/3066/2023/03/28/the-benefits-of-study-groups-why-two-heads-are-better-than-one.jpeg');
+  background-position: center;
+  background-size: cover;
 }
